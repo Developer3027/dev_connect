@@ -1,0 +1,28 @@
+{
+	"name": "dev_connect",
+	"version": "1.0.0",
+	"description": "social network for devs",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server",
+		"server": "nodemon server"
+	},
+	"repository": "https://github.com/Developer3027/dev_connect.git",
+	"author": "mason roberts <mrobe18@gmail.com>",
+	"license": "MIT",
+	"private": false,
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"config": "^3.3.1",
+		"express": "^4.17.1",
+		"express-validator": "^6.6.0",
+		"gravatar": "^1.8.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.9.22",
+		"request": "^2.88.2"
+	},
+	"devDependencies": {
+		"concurrently": "^5.2.0",
+		"nodemon": "^2.0.4"
+	}
+}
